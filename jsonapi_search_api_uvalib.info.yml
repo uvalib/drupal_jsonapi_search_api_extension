@@ -3,3 +3,8 @@ type: module
 description: 'A description of what your module does.'
 core: 8.x
 core_version_requirement: ^8 || ^9
+services:
+  jsonapi_search_api_uvalib.module_subscriber:
+    class: Drupal\json_search_api_uvalib\EventSubscriber\AddMetaExtras
+    tags:
+      - { name: 'event_subscriber' }

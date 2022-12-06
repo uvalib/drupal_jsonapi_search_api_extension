@@ -4,7 +4,7 @@
 * A description of what your module does.
 */
 
-namespace Drupal\my_custom_module\EventSubscriber;
+namespace Drupal\json_search_api_uvalib\EventSubscriber;
 
 use Drupal\jsonapi_search_api\Event\AddSearchMetaEvent;
 use Drupal\jsonapi_search_api\Event\Events;
