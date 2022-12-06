@@ -1,0 +1,1 @@
+# drupal_jsonapi_search_api_extension
