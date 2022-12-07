@@ -1,0 +1,14 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function jsonapi_search_uvalib_help($route_name, RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+        case 'help.page.jsonapi_search_uvalib':
+            return t('jsonapi search uvalib extensions:  Not much help here');
+    }
+}
