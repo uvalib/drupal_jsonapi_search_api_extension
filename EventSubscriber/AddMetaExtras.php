@@ -4,7 +4,7 @@
 * A description of what your module does.
 */
 
-namespace Drupal\json_search_api_uvalib\EventSubscriber;
+namespace Drupal\jsonapi_search_uvalib\EventSubscriber;
 
 use Drupal\jsonapi_search_api\Event\AddSearchMetaEvent;
 use Drupal\jsonapi_search_api\Event\Events;
@@ -15,7 +15,7 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
  *
  * Stolen from https://www.drupal.org/project/jsonapi_search_api/issues/3166851#comment-13836418
  *
- * @package Drupal\json_api_search_uvalib\EventSubscriber
+ * @package Drupal\jsonapi_search_uvalib\EventSubscriber
  */
 class AddMetaExtras implements EventSubscriberInterface
 {
