@@ -15,6 +15,7 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
  *
  * Stolen from https://www.drupal.org/project/jsonapi_search_api/issues/3166851#comment-13836418
  *
+ * @package Drupal\json_api_search_uvalib\EventSubscriber
  */
 class AddMetaExtras implements EventSubscriberInterface
 {
@@ -24,8 +25,7 @@ class AddMetaExtras implements EventSubscriberInterface
      */
     public static function getSubscribedEvents()
     {
-        $events[Events::ADD_SEARCH_META][] = ['includeExtraData'];
-        return $events;
+      return [ Events::ADD_SEARCH_META => 'includeExtraData' ];
     }
 
     /**
