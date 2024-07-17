@@ -1,4 +1,4 @@
 name: jsonapi search uvalib
 type: module
 description: 'A description of what your module does.'
-core_version_requirement: ^9
+core_version_requirement: ^9|^10
